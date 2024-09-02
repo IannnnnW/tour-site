@@ -48,7 +48,7 @@ export default function Root(){
                             <h4>Contact</h4>
                             <ul>
                                 <li><MdOutlinePermPhoneMsg />+256 78685 1800</li>
-                                <li><MdOutlineMailOutline />ianwamai@gmail.com</li>
+                                <li><MdOutlineMailOutline />info@kabebasafaris.com</li>
                                 <li><CiLocationOn/>21 King Street Melbrone, 3000, Australia</li>
                             </ul>
                         </div>
