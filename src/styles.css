@@ -49,6 +49,11 @@ a{
     max-width: 15rem;
     max-height: 15rem;
 }
+
+.footer-right > .footer-explore ul li a{
+    color: var(--white);
+}
+
 a:hover{
     background-color: var(--alt-text-color);
     color: var(--white);

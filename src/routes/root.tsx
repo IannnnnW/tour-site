@@ -5,7 +5,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import logoLight from "../assets/logo-light.png"
-import { CiLocationOn } from "react-icons/ci";
+import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineConnectWithoutContact, MdOutlineMailOutline, MdOutlinePermPhoneMsg } from 'react-icons/md';
 import { IoHomeOutline } from 'react-icons/io5';
 import { FaQuestion } from 'react-icons/fa6';
@@ -39,17 +39,17 @@ export default function Root(){
                         <div className='footer-explore'>
                             <h4>Navigation</h4>
                             <ul>
-                                <li><IoHomeOutline /> Home</li>
-                                <li><FaQuestion /> About Us</li>
-                                <li><MdOutlineConnectWithoutContact /> Contact</li>
+                                <li><Link to={'/'}><IoHomeOutline /> Home</Link></li>
+                                <li><Link to={'/about'}><FaQuestion /> About Us</Link></li>
+                                <li><Link to={'/contact-us'}><MdOutlineConnectWithoutContact /> Contact</Link></li>
                             </ul>
                         </div>
                         <div className='footer-contact'>
                             <h4>Contact</h4>
                             <ul>
-                                <li><MdOutlinePermPhoneMsg />+256 78685 1800</li>
+                                <li><MdOutlinePermPhoneMsg />+256 771 082291</li>
                                 <li><MdOutlineMailOutline />info@kabebasafaris.com</li>
-                                <li><CiLocationOn/>21 King Street Melbrone, 3000, Australia</li>
+                                <li><FaXTwitter/>@kabebasafaris Uganda</li>
                             </ul>
                         </div>
                     </div>
