@@ -4,7 +4,6 @@ import { Link, Outlet } from 'react-router-dom'
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import logoLight from "../assets/logo-light.png"
 import logoDark from "../assets/logo-dark.png"
 import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineConnectWithoutContact, MdOutlineMailOutline, MdOutlinePermPhoneMsg } from 'react-icons/md';
