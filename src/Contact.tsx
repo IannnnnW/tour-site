@@ -57,19 +57,18 @@ const Contact = () => {
                     <div className='contact-info'>
                         <img src={location}/>
                         <h4 className='charis-text'>Our Location</h4>
-                        <p className='text-small'>121 King Street, Melbrone Victoria 3000 Australia</p>
+                        <p className='text-small'>Kabeba Safaris Ltd <br/> P.O Box 170524, Kampala Uganda</p>
                     </div>
                     <div className='contact-info'>
                         <img src={phone}/>
                         <h4 className='charis-text'>Phone Number</h4>
-                        <p className='text-small'>(+256) 78685 1800</p>
-                        <p className='text-small'>(+256) 70781 2375</p>
+                        <p className='text-small'>(+256) 77108 2291</p>
                     </div>
                     <div className='contact-info'>
                         <img src={email}/>
                         <h4 className='charis-text'>Our Email</h4>
-                        <p className='text-small'>ianwamai@gmail.com</p>
-                        <p className='text-small'>ianwasukira@gmail.com</p>
+                        <p className='text-small'>info@kabebasafaris.com</p>
+                        <p className='text-small'>Kabebasafaris@gmail.com</p>
                     </div>
                </div>
             </div>

@@ -7,11 +7,21 @@ import guide from './assets/guide.png'
 import laguage from './assets/laguage.png'
 import scenary from './assets/scenary.jpg'
 import { IoIosArrowDropright } from "react-icons/io";
-
+import SafarisLogo from "./assets/logo-light.png"
+import { Link } from 'react-router-dom'
 const About = () => {
     return(
         <>
         <div className='about'>
+            <div className='about-intro'>
+                <h1 className='charis-text'>We are <span className='highlighted-text'>Kabeba Safaris</span></h1>
+                <h2 className='charis-text'>About Us</h2>
+                <div className='about-intro-text'>
+                    <img src={SafarisLogo} className='footer-logo'/>
+                    <p>We are a young, flexible and dedicated team with 5 years experience in designing special and outstanding safaris, very ready to work together with you to create your perfect safari fitting your budget for unforgettable memories in Africa.</p>
+                </div>
+                <Link to={'/contact-us'} className='contact-btn'>Contact Us!</Link>
+            </div>
             <div className='about-heading'>
                 <h4 className='highlighted-text'>What We Offer</h4>
                 <h2 className='charis-text'>Best Services We Offer!</h2>

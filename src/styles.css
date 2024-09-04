@@ -95,6 +95,21 @@ a:hover{
     height: 100%;
 }
 
+.about-intro{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.about-intro-text{
+    display: flex;
+    gap: 5rem;
+    width: 75%;
+    align-self: center;
+}
+.about .about-intro .about-intro-text p{
+    align-self: center;
+    width: 75%;
+}
 .intro-overlay-text{
     position: absolute;
     top: 40%;
@@ -149,6 +164,7 @@ a:hover{
 
 }
 
+
 .about-services{
     padding: 1rem 1rem 5rem 5rem;
     display: grid;
@@ -194,6 +210,16 @@ a:hover{
 .text-medium{
     font-size: 24px;
     font-weight: 400;
+}
+
+.contact-btn{
+    width: 5.8rem;
+    align-self: center;
+    margin-top: 0.5rem;
+    color: var(--white);
+    background-color: var(--dark-grey);
+    border-radius: 5px;
+    padding: 0.5rem;
 }
 
 .contact-form-section{
@@ -481,5 +507,21 @@ ul{
    .full-width-video {
     width: 100%;
     height: auto;
+    }
+    .about-intro{
+        padding: 2rem;
+    }
+    .about-intro-text{
+        padding: 1rem;
+        flex-direction: column;
+        width: 100%;
+    }
+    .about-intro-text .footer-logo{
+        align-self: center;
+    }
+
+    .about .about-intro .about-intro-text p{
+        align-self: center;
+        width: 100%;
     }
   }
